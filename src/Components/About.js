@@ -14,18 +14,20 @@ function About(){
             <div className="flex-1 py-4">
                 <span className= {Styles.heroHeadText}>
                     Hi, I'm <span className='text-orange-600'>
-                        Yashaswi
+                        Yashaswi Sahu
                     </span>
                     <br/>
                     <span className={Styles.heroSubText}>
-                        I am a MERN Stack Developer & 
-                        <br/>
+                        I am a MERN Stack Developer &
+                    </span>
+                    <span className={Styles.heroSubText}>
+                       
                         Web Designer
                     </span>
 
                 </span>
                 <br/>
-                <div className="w-[14rem]">
+                <div className="w-[14rem] mt-[10%]">
                     <a
                     href={Resume}
                     download="Resume"
@@ -34,7 +36,7 @@ function About(){
                     >
                         <div className="p-4 mt-2 w-[13rem] rounded-xl text-orange-500 
                         flex justify-center border-2 border-orange-500 
-                        hover:border-violet-500 shadow-lg hover:shadow-pink-500"><TiArrowDownOutline className="text-lg mr-3 mt-1 text-orange-500">
+                        hover:border-violet-500 shadow-lg hover:color:orange hover:text-purple-800 hover:bg-orange-500"><TiArrowDownOutline className="text-lg mr-3 mt-1 text-orange-500">
                             </TiArrowDownOutline> Resume
                         </div>
 

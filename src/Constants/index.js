@@ -20,27 +20,27 @@ const services=[
 const technologies=[
     {
         name: "HTML 5",
-        icon: Logotic,
+        icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBpoES8d0VUFDFY6fysFdk6yygMUYtwZ9gzJEAhU6Spg&s",
     },
     {
         name: "CSS 3",
-        icon: Logotic,
+        icon: "https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_1280.png",
     },
     {
         name: "JavaScript",
-        icon: Logotic,
+        icon: "https://assets.codegrip.tech/wp-content/uploads/2021/09/28165501/JavaScript_Logo2.png",
     },
     {
         name: "Bootstrap",
-        icon: Logotic,
+        icon: "https://w7.pngwing.com/pngs/718/753/png-transparent-bootstrap-css3-node-js-logo-github-purple-violet-rectangle-thumbnail.png",
     },
     {
         name: "Kotlin",
-        icon: Logotic,
+        icon: "https://www.svgrepo.com/show/373728/kotlin.svg",
     },
     {
         name: "Java",
-        icon: Logotic,
+        icon: "https://cdn-icons-png.flaticon.com/512/226/226777.png",
     },
 ]
 
