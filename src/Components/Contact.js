@@ -15,7 +15,7 @@ function Contact() {
     
 <div className='mt-5'>
     <div className='flex flex-row flex-wrap justify-around'>
-        <div className='lg:w-[40%]'>
+        <div className='lg:w-[60%] p-[5%]'>
             <form className='m-5 flex flex-col gap-3'>
                 <label className='flex flex-col gap-3'>
                     <span className='text-violwt-700 font-medium mb-2'>
@@ -48,7 +48,7 @@ function Contact() {
                     <textarea
                     row={5}
                     name="text"
-                    placeholder="What's your good name?"
+                    placeholder="Write your message here!"
                     className='bg-orange-200 py-4 px-6 placeholder:text-secondary text-orange-500 
                     rounded-lg outline-none border-none font-medium'>
 
@@ -65,8 +65,8 @@ function Contact() {
             </form>
 
         </div>
-        <div className='lg:w-[50%]'>
-            <img src={contact} alt='any image'/>
+        <div className='lg:w-[35%] '>
+            <img src={contact} alt='any image' className='w-[80%] mt-[10%]'/>
         </div>
     </div>
 </div>
