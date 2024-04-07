@@ -14,10 +14,10 @@ function Overview() {
             <hr className='w-[35%]'></hr>
         
         <div className={Styles.sectionText}>
-        Enthusiastic and dedicated Computer Science and Engineering student at Bhilai Institute of Technology, Durg. Passionate
-        about exploring cutting-edge technologies, I possess a strongfoundation in frontend and backend development. Proficient in
-        web development, Python, MySQL, HTML, CSS, and JavaScript, Iam eager to leverage my skills in a dynamic and innovative 
-        environment to contribute to impactful projects.
+            Enthusiastic and dedicated Computer Science and Engineering student at Bhilai Institute of Technology, Durg. Passionate
+            about exploring cutting-edge technologies, I possess a strongfoundation in frontend and backend development. Proficient in
+            web development, Python, MySQL, HTML, CSS, and JavaScript, Iam eager to leverage my skills in a dynamic and innovative 
+            environment to contribute to impactful projects.
         </div>
         </div>
         <div className='flex flex-wrap justify-center'>
@@ -52,16 +52,15 @@ function Overview() {
             (
                 <div
                 key={technology.name}
-                className='m-4 mt-5 h-[100px] rounded-3xl shadow-2xl border-[1px] border-violet-400
+                className='m-4 mt-5 h-[100px] w-[100px] rounded-3xl shadow-2xl border-[1px] border-violet-400
                 hover:shadow-orange-300'>
-                    <img className='p-2' src={technology.icon} alt={technology.name}/>
+                    <img className='p-2 w-[100%]' src={technology.icon} alt={technology.name}/>
                     <div className='text-violet-600 justify-center flex'></div>
                       {technology.name}
-                    </div>            ))}
+                    </div>            
+            ))}
         </div>
     </div>
-     
-   
   )
 }
 
