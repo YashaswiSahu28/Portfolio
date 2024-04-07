@@ -22,7 +22,7 @@ function About(){
                     </span>
                     <span className={Styles.heroSubText}>
                        
-                        Web Designer
+                         App Developer & Web Designer
                     </span>
 
                 </span>
