@@ -15,7 +15,7 @@ function Projects() {
         
         <div className={Styles.sectionText}>
         Enthusiastic and dedicated Computer Science and Engineering student at Bhilai Institute of Technology, Durg. Passionate
-        about exploring cutting-edge technologies, I possess a strongfoundation in frontend and backend development.
+        about exploring cutting-edge technologies, I possess a strong foundation in frontend and backend development.
         </div>
         </div>
         <div className='flex flex-wrap p-8 justify-evenly items-center'>

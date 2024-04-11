@@ -18,7 +18,7 @@ function About(){
                     </span>
                     <br/>
                     <span className={Styles.heroSubText}>
-                        I am a MERN Stack Developer &
+                        I am a MERN Stack Developer,
                     </span>
                     <span className={Styles.heroSubText}>
                        
